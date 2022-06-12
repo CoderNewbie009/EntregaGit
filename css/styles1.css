@@ -46,6 +46,9 @@ nav ul li{
     border-radius: 1rem;
     text-shadow: 0.2px 0.2px 0.2px black;
     }
+nav ul li:hover{
+    transform: skewX(20deg);
+}
 
 .p_uno{
     text-align: center;
@@ -72,7 +75,9 @@ nav ul li{
     color: whitesmoke;
     text-shadow: 2px 2px 2px black;
         }
-    
+.caja_uno:hover{
+    border-radius: 20%;
+    }
 .caja_dos{
     background-image: url(../img/budismo1.jpg);
     background-repeat: no-repeat;
@@ -88,6 +93,9 @@ nav ul li{
     color: whitesmoke;
     text-shadow: 2px 2px 2px black;
         }
+.caja_dos:hover{
+    border-radius: 20%;
+    }
 .caja_tres{
     background-image: url(../img/budismo2.jpg);
     background-repeat: no-repeat;
@@ -103,6 +111,9 @@ nav ul li{
     color: whitesmoke;
     text-shadow: 2px 2px 2px black;
             }
+.caja_tres:hover{
+    border-radius: 20%;
+        }
 .producto{
     background-image: url(../img/producto.jpg);
     background-repeat: no-repeat;
