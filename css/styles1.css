@@ -4,6 +4,14 @@
     padding: 0;
     box-sizing: border-box;
     }
+/*Boostrap*/
+
+.nav{
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+
 /*Caracteristias de imágen central*/
 .bud{
     display: flex;
