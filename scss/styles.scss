@@ -1,0 +1,73 @@
+//reset
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+//Importación de las variables
+@import "utilities/variables";
+
+//Caracteristias de imágen central
+.bud{
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+body{
+    background-color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+//Nesting en Titulo de la página
+header{
+    background-color: transparent;
+    text-align: center;
+    h1{
+        color: $color-head;
+        font-style: normal;
+        font-weight: 70px;
+    }
+    h2{
+        color: $color-head;
+        font-style: oblique;
+    }
+}
+//Nesting en estilos de la Menu
+header{
+    position:relative;
+    padding: 10px;
+    .nav.bg-light{
+    border-radius: 1rem;
+    text-shadow: 0.2px 0.2px 0.2px black;
+    justify-content: center;
+    }
+}
+main{
+    text-align: center;
+    .cuerpo{
+    font-family: 'Courier New', Courier, monospace;
+    }
+    .p_uno{
+        background-color: $color-parrafo;
+    }
+    .p_dos{
+        background-color: $color-parrafo;
+    }
+    .p_tres{
+        background-color: $color-parrafo;
+    }
+}
+//Nesting en el Footer
+footer{
+    padding-top: 10px;
+    padding-bottom: 10px; 
+    text-align: center;
+    .derechos{
+        font-size: smaller ;
+        color: $color-footer;
+    }
+    .derechos2{
+        font-size: small;
+        color: $color-footer;
+    }
+    }
