@@ -4,13 +4,6 @@
     padding: 0;
     box-sizing: border-box;
     }
-/*Boostrap*/
-
-.nav{
-    position: absolute;
-    left: 50%;
-    transform: translatex(-50%);
-}
 
 /*Caracteristias de imágen central*/
 .bud{
@@ -25,38 +18,36 @@ body{
     }
 /* Titulo de la página*/
 h1{
+    margin-top: 0.5rem;
     background-color: transparent;
     color: rgb(100, 95, 95);
     text-align: center;
     font-style: normal;
     font-weight: 70px;
+    text-shadow: 0.2px 0.2px 0.2px yellow;
     }
 h2{
     background-color: transparent;
     color: rgb(100, 95, 95);
     text-align: center;
     font-style: normal;
+    text-shadow: 0.2px 0.2px 0.2px yellow;
 }
-    /* estilos de la caja */
-nav{
-    background-color: white;
-    position: sticky;
-    top: 0;
-    z-index: 2;
-    text-align: center;
-    text-justify: auto;
-    }
-nav ul li{
-    background-color: rgb(245, 220, 239);
-    display: inline-block;
-    padding: 10px;
-    margin: 10px;
+    /* estilos de la Menu
+.nav.bg-light{
+    position:relative;
+    padding: 3px;
     border-radius: 1rem;
     text-shadow: 0.2px 0.2px 0.2px black;
+    justify-content: center;
     }
-nav ul li:hover{
-    transform: skewX(20deg);
-    }
+*/
+    /* estilos de la Menu Hamburguesa Boostrap*/
+.navbar.navbar-expand-lg.bg-light{
+    padding: 10px;
+    text-shadow: 0.2px 0.2px 0.2px black;
+}
+
 .p_uno{
     text-align: center;
     background-color: aqua;
@@ -68,7 +59,6 @@ nav ul li:hover{
     text-shadow: 0.2px 0.2px 0.2px black;
     }
 .caja_uno{
-    
     background-image: url(../img/budismo.jpg);
     background-repeat: no-repeat;
     background-position: left;
@@ -79,10 +69,13 @@ nav ul li:hover{
     padding: 90px;
     /* Propiedad Border (Tamaño del brode)*/
     border: 2px solid yellow;
-    font-size: 50px;
+    font-size: 20px;
     color: whitesmoke;
     text-shadow: 2px 2px 2px black;
         }
+.caja_uno:hover{
+    border-radius: 20%;
+    }
 .caja_dos{
     background-image: url(../img/budismo1.jpg);
     background-repeat: no-repeat;
@@ -94,10 +87,13 @@ nav ul li:hover{
     padding: 90px;
     /* Propiedad Border (Tamaño del brode)*/
     border: 2px solid yellow;
-    font-size: 50px;
+    font-size: 20px;
     color: whitesmoke;
     text-shadow: 2px 2px 2px black;
         }
+.caja_dos:hover{
+    border-radius: 20%;
+    }
 .caja_tres{
     background-image: url(../img/budismo2.jpg);
     background-repeat: no-repeat;
@@ -109,10 +105,13 @@ nav ul li:hover{
     padding: 90px;
     /* Propiedad Border (Tamaño del brode)*/
     border: 2px solid yellow;
-    font-size: 50px;
+    font-size: 20px;
     color: whitesmoke;
     text-shadow: 2px 2px 2px black;
             }
+.caja_tres:hover{
+    border-radius: 20%;
+        }
 .producto{
     background-image: url(../img/producto.jpg);
     background-repeat: no-repeat;
@@ -139,10 +138,10 @@ nav ul li:hover{
     font-size: 50px;
     color: whitesmoke;
     text-shadow: 2px 2px 2px black;
-}
+} 
 .producto_uno:hover{
     border-radius: 20%;
-} 
+}
 .producto_dos{
     background-image: url(../img/producto_dos.jpg);
     background-repeat: no-repeat;
@@ -154,7 +153,7 @@ nav ul li:hover{
     font-size: 50px;
     color: whitesmoke;
     text-shadow: 2px 2px 2px black;
-}
+} 
 .producto_dos:hover{
     border-radius: 20%;
 } 
@@ -172,7 +171,7 @@ nav ul li:hover{
 }
 .producto_tres:hover{
     border-radius: 20%;
-}                     
+}                      
 /* Caja de Texto*/
 .p_tres{
     text-align: center;
@@ -202,18 +201,31 @@ nav ul li:hover{
     height: 3vh
 }
 /*Media queries*/
+
 @media screen and (min-width:600px) {
 .cuerpo{
-    height: 200vh;
+    height: 250vh;
     display: grid;
-    grid-template-areas: "producto producto_uno" 
-                          "producto_dos producto_tres"
+    grid-template-areas: "p_uno caja_uno" 
+                          "p_dos caja_dos"
+                          "p_tres caja_tres"
                           "footer footer";
     column-gap: 5px;
     justify-content: center; 
     justify-items: center;
 }
+.caja_uno{
+    font-size: 25px;
 }
+.caja_dos{
+    font-size: 25px;
+}
+.caja_tres{
+    font-size: 25px;
+}
+
+}
+
 .p_uno{
     grid-area: p_uno;
     display: flex;
@@ -257,15 +269,26 @@ nav ul li:hover{
     grid-area: footer;
 }
 
+
 @media screen and (min-width:1024px) {
     .cuerpo{
         height: 70vh;
         display: grid;
-        grid-template-areas: "producto producto_uno producto_dos producto_tres" 
-                              "footer footer footer footer";
+        grid-template-areas: "p_uno p_dos p_tres"
+                            "caja_uno caja_dos caja_tres" 
+                              "footer footer footer";
         column-gap: 3px;
         justify-content: center; 
         justify-items: center;
+    }
+    .caja_uno{
+        font-size: 30px;
+    }
+    .caja_dos{
+        font-size: 30px;
+    }
+    .caja_tres{
+        font-size: 30px;
     }
     }
 .p_uno{
@@ -295,16 +318,17 @@ nav ul li:hover{
 .producto_dos{
     grid-area: producto_dos;
 }
-.producto_tres{
-    grid-area: producto_tres;
-}
+
 .footer{
     grid-area: footer;
     }
-/*PAGINA FORMULARIO*/
+
+
+/*PAGINA FORMULARIO
 .formulario{
     padding: 10px;
     border: 10px;
     border-color: yellow;
     margin: 3px;
     }
+*/

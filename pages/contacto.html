@@ -4,102 +4,120 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!-- CSS only - Para instalar CSS en el html -->
+    <!-- CSS only - Para instalar CSS en el html -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 <!-- JavaScript Bundle with Popper - Para instalar el Java -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="../css/styles.css">
-    <!--etiqueta multimedia 1 : favicon-->
+    <link rel="stylesheet" href="/css/styles_kits.css">
+<!-- favicon-->
     <link rel="shortcut icon" href="/favicon/images.png">
-    <title>Bodhisattva | Contacto | </title>
+    <title>Bodhisattva | Formulario de Contacto | </title>
 </head>
+
 <body>
-    <div class="bud"><img src="../img/buddha.png" alt="Imágen de Buda en estado de meditación">
-    </div>
+    <div class="text-center"><img src="../img/buddha.png" alt="Imágen de Buda en estado de meditación"></div>
+            <!--Menú de navegación-->
+            <div class="container">
+              <ul class="nav bg-light">
+                <li class="nav-item">
+                  <a class="nav-link" href="../index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="tienda.html">Nuestra Tienda</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="beneficios.html">Beneficios</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="kits.html">Kits</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="mas.html">Más</a>
+                </li>
+              </ul>
+            </div>
+    <h1 class="text-center m-1">Bodhisattva</h1>
+    <h2 class="text-center m-1">Camino de Luz</h2>
 
-    <header>
-        <div class="container">
-            <ul class="nav bg-light">
-              <li class="nav-item">
-                <a class="nav-link" href="../index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/pages/tienda.html">Nuestra Tienda</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/pages/beneficios.html">Beneficios</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/pages/kits.html">Kits</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/pages/mas.html">Más</a>
-              </li>
-            </ul>
+    <!--
+    <div class="mb-3">
+      <label for="exampleFormControlInput1" class="form-label">Correo</label>
+      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="tunombre@example.com">
+    </div>
+    <div class="mb-3">
+      <label for="exampleFormControlTextarea1" class="form-label">Escribe acá tus comentario</label>
+      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    </div>
+    -->
+    <br><br>
+    <div class="container">
+      <div class="row">
+          <div class="col-md-12">
+              <div class="well well-sm">
+                  <form class="form-horizontal" method="post">
+                      <fieldset>
+                          <legend id="text-center header">Contáctanos</legend>
+  
+                          <div class="form-group">
+                              <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
+                              <div class="col-md-8">
+                                  <input id="fname" name="name" type="text" placeholder="Nombre" class="form-control">
+                              </div>
+                          </div>
+                          <div class="form-group">
+                              <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
+                              <div class="col-md-8">
+                                  <input id="lname" name="name" type="text" placeholder="Apellido" class="form-control">
+                              </div>
+                          </div>
+  
+                          <div class="form-group">
+                              <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-envelope-o bigicon"></i></span>
+                              <div class="col-md-8">
+                                  <input id="email" name="email" type="text" placeholder="Email" class="form-control">
+                              </div>
+                          </div>
+  
+                          <div class="form-group">
+                              <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-phone-square bigicon"></i></span>
+                              <div class="col-md-8">
+                                  <input id="phone" name="phone" type="text" placeholder="Teléfono" class="form-control">
+                              </div>
+                          </div>
+  
+                          <div class="form-group">
+                              <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-pencil-square-o bigicon"></i></span>
+                              <div class="col-md-8">
+                                  <textarea class="form-control" id="message" name="message" placeholder="Escribenos tus comentarios" rows="7"></textarea>
+                              </div>
+                          </div>
+  
+                          <div class="form-group">
+                              <div class="col-md-12 text-center">
+                                  <button type="submit" class="btn btn-primary btn-lg">Enviar</button>
+                              </div>
+                          </div>
+                      </fieldset>
+                  </form>
+              </div>
           </div>
-    
-        </header>
-    <div>
-        <h1>Bodhisattva</h1>
-        <br>
-        <h2>Camino de Luz</h2>
-        <br>
-        <h2>Somos Tú Alternativa de Crecimiento Personal</h2>
-        <p class="parrafo_uno">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero vero dolorum, nostrum perferendis reprehenderit necessitatibus, accusamus corporis saepe esse quis animi quaerat, debitis at rem velit voluptatum. Iusto, quod at?
-        </p>
+      </div>
+  </div>  
+</body>
 
-        <br>
-        
-        <p class="parrafo_dos">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis quod doloremque perspiciatis incidunt totam officiis optio labore recusandae delectus saepe quo excepturi mollitia ut tempora, asperiores ipsa! Tenetur, repellendus quisquam.
-        </p>
-    </div>
-    <section>
-		<article>
-           <!--Formulario en pagina de contacto--> 
-			<form class="formulario" action="#">
-                <label for="Nombre">Nombre</label>
-				<input type="text" placeholder="Indicame tú Nombre"><br>
-				<label for="email">Correo Electronico:
-				<input type="email" placeholder="tucorreo@correo.com" name="email"><br>
-				</label>
-				<label for="Observaciones"> Comentarios:<br>
-				<textarea placeholder="Estraganos tus comentarios"></textarea>
-				</label> <br>
-                <label for="Nombre">¿Cuál es tu edad?</label>
-				<input type="number" placeholder="Tu edad"><br>
-				<p>¿Cuál de nuestros porductos es el que mas te gusta?</p>
-				<select name="letra" id="letra">
-					<option value="Fuentes">Fuentes de Agua</option>
-					<option value="Altares">Altares de meditación ZEN</option>
-					<option value="Velas">Velas de aromaticas</option>
-				</select>
-				<div>Queres recibir info sobre nosotros?<br>
-				<input type="checkbox" name="acepta" value="1"></div>
-				<input type="submit" value="Quiero Recibir Información">
-				<input type="reset" value="Borrar el formulario"><br>
-			</form>
-		</article>
-	</section>
-   
-    <!--Imágen principal de la página ocultada-->
-   <!-- <div class="caja"> Caja Buda Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam rerum accusamus explicabo blanditiis esse. Architecto hic labore dolorem sunt eos, numquam debitis vitae natus minima repudiandae similique quibusdam, facilis ipsa?</div>-->
-    
-    <div class="texto_bajo">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit necessitatibus, nulla at repudiandae impedit molestiae cum labore magni reprehenderit provident rerum inventore corrupti molestias vel illo hic voluptate eaque qui.</p>
-    </div>
+            
     <footer class="footer">
       <div class="derechos">Seguinos en nuestras redes sociales</div>
-        <div class="" style="text-align:center ;">   
-            <a class="links" href="https://www.twitter.com"target="_blank"><img src="../icon/tweetr.png" alt="" width="2.5%">
+        <div class="rrss">
+            <a class="links" href="https://www.twitter.com"target="_blank"><img src="/icon/tweetr.png" alt="Link a twitter" width="2.5%">
             </a>
-            <a class="links" href="https://www.Facebook.com"target="_blank" ><img src="../icon/face.png" alt="" width="2.5%">
+            <a class="links" href="https://www.Facebook.com"target="_blank" ><img src="/icon/face.png" alt="Link a facebook" width="2.5%">
             </a>
-            <a class="links" href="https://www.instagram.com"target="_blank"><img src="../icon/insta.jpg" alt="" width="2.5%">
+            <a class="links" href="https://www.instagram.com"target="_blank"><img src="/icon/insta.jpg" alt="Link a instagram" width="2.5%">
             </a>
         </div>
         <div class="derechos2"> Bodhisattva todos los derechos reservados 2022<div>
     </footer>
-</body>
+        </main>
+</div class="container">
 </html>

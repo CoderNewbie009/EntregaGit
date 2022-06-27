@@ -1,0 +1,59 @@
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+/*Caracteristias de imágen central*/
+.bud{
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+body{
+    background-color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+/* Titulo de la página*/
+h1{
+    background-color: transparent;
+    color: rgb(100, 95, 95);
+    text-align: center;
+    font-style: normal;
+    font-weight: 70px;
+    }
+h2{
+    background-color: transparent;
+    color: rgb(100, 95, 95);
+    text-align: center;
+    font-style: normal;
+}
+    /* estilos de la Menu */
+.nav.bg-light{
+    position:relative;
+    padding: 3px;
+    border-radius: 1rem;
+    text-shadow: 0.2px 0.2px 0.2px black;
+    justify-content: center;
+    }
+/*Centrado de H3*/
+.col-12.bg-info.m-2{
+text-align: center;
+}
+/* Centrado del texto*/
+.col.m-2.bg-light{
+    text-align: center;
+}
+/*Propiedades de la tabla (horario)*/
+.table{
+    text-align: center;
+    background-color:antiquewhite;
+    text-shadow: 1px 1px 1px;
+}
+.footer{
+    padding-top: 10px;
+    padding-bottom: 10px; 
+    text-align: center;  
+    }
