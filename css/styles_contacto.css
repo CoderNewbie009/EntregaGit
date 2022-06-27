@@ -44,4 +44,12 @@ h2{
     padding-bottom: 10px; 
     text-align: center;  
     }
+.derechos{
+    font-size: medium;
+    text-shadow: 0.2px 0.2px 0.2px black;
+    }
+.derechos2{
+    font-size: x-small;
+    text-shadow: 0.2px 0.2px 0.2px black;
+    }
 
