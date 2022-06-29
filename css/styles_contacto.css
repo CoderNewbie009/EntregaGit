@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
 
 /*Caracteristias de imágen central*/
@@ -18,27 +19,57 @@ body{
     }
 /* Titulo de la página*/
 h1{
+    margin-top: 0.5rem;
     background-color: transparent;
     color: rgb(100, 95, 95);
     text-align: center;
     font-style: normal;
     font-weight: 70px;
+    text-shadow: 0.2px 0.2px 0.2px yellow;
     }
 h2{
     background-color: transparent;
     color: rgb(100, 95, 95);
     text-align: center;
     font-style: normal;
+    text-shadow: 0.2px 0.2px 0.2px yellow;
+}
+.formulario{
+    background-color: bisque;
+    border-radius: 10%;
+    margin: 0rem 28rem 0rem 28rem;
+}
+.text-f{
+    font-size:larger;
+    background-color: transparent;
+    color: rgb(100, 95, 95);
+    text-align: center;
+    font-style: normal;
+    text-shadow: 0.2px 0.2px 0.2px yellow;
+}
+#text-f2{
+    font-size:x-large;
+    text-decoration: underline;
+    background-color: transparent;
+    color: rgb(100, 95, 95);
+    text-align: center;
+    font-style: normal;
+    text-shadow: 0.2px 0.2px 0.2px yellow;
 }
     /* estilos de la Menu */
-.nav.bg-light{
-    position:relative;
-    padding: 3px;
-    border-radius: 1rem;
-    text-shadow: 0.2px 0.2px 0.2px black;
-    justify-content: center;
+    .navbar.navbar-expand-lg.bg-light{
+    padding: 10px;
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+    border-radius: 2rem;
+    text-shadow: 0.2px 0.2px 0.2px yellow;
+    z-index: 1;
     }
-
+.formulario{
+    padding: 2px;
+    text-align: center;
+}
 .footer{
     padding-top: 10px;
     padding-bottom: 10px; 
@@ -53,3 +84,13 @@ h2{
     text-shadow: 0.2px 0.2px 0.2px black;
     }
 
+/*form*/
+.container{
+    justify-content: center;
+    text-align: center;
+}
+.row{
+    color: yellow;
+    font-size: 27px;
+    padding: 10px;
+}
