@@ -36,14 +36,14 @@ h2{
 }
     /* estilos de la Menu */
 .navbar.navbar-expand-lg.bg-light{
-    padding: 10px;
-    position: absolute;
-    left: 50%;
-    transform: translatex(-50%);
-    border-radius: 2rem;
-    text-shadow: 0.2px 0.2px 0.2px yellow;
-    z-index: 1;
-    }
+padding: 10px;
+position: absolute;
+left: 50%;
+transform: translatex(-50%);
+border-radius: 2rem;
+text-shadow: 0.2px 0.2px 0.2px yellow;
+z-index: 1;
+}
 .col-12.m-2{
     background-color: beige;
     color: rgb(100, 95, 95);

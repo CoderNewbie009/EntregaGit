@@ -36,66 +36,66 @@ h2{
 }
     /* estilos de la Menu Hamburguesa Boostrap*/
 .navbar.navbar-expand-lg.bg-light{
-    padding: 10px;
-    position: absolute;
-    left: 50%;
-    transform: translatex(-50%);
-    border-radius: 2rem;
-    text-shadow: 0.2px 0.2px 0.2px yellow;
-    z-index: 1;
+padding: 10px;
+position: absolute;
+left: 50%;
+transform: translatex(-50%);
+border-radius: 2rem;
+text-shadow: 0.2px 0.2px 0.2px yellow;
+z-index: 1;
 }
 
 .p_uno{
-    text-align: center;
-    background-color: beige;
-    text-shadow: 0.2px 0.2px 0.2px yellow;
-    }
+text-align: center;
+background-color: beige;
+text-shadow: 0.2px 0.2px 0.2px yellow;
+}
 .p_dos{
-    text-align: center;
-    background-color: rgb(248, 249, 250);
-    text-shadow: 0.2px 0.2px 0.2px yellow;
-    }
+text-align: center;
+background-color: rgb(248, 249, 250);
+text-shadow: 0.2px 0.2px 0.2px yellow;
+}
 .p_tres{
-    text-align: center;
-    background-color: beige;
-    text-shadow: 0.2px 0.2px 0.2px yellow;
-    }
+text-align: center;
+background-color: beige;
+text-shadow: 0.2px 0.2px 0.2px yellow;
+}
 .caja_uno{
-    background-image: url(../img/budismo.jpg);
-    background-repeat: no-repeat;
-    background-position: left;
-    background-size: cover;
+background-image: url(../img/budismo.jpg);
+background-repeat: no-repeat;
+background-position: left;
+background-size: cover;
     /* propiedad del margin (Tamaño Externo)*/
-    margin: 0px 0px 2px 0px;
+margin: 0px 0px 2px 0px;
     /* Popiedad del Padding (Tamaño Interno)*/
-    padding: 90px;
+padding: 90px;
     /* Propiedad Border (Tamaño del brode)*/
-    border: 2px solid yellow;
-    font-size: 20px;
-    color: whitesmoke;
-    text-shadow: 2px 2px 2px black;
-        }
+border: 2px solid yellow;
+font-size: 20px;
+color: whitesmoke;
+text-shadow: 2px 2px 2px black;
+}
 .caja_uno:hover{
     border-radius: 20%;
-    }
+}
 .caja_dos{
-    background-image: url(../img/budismo1.jpg);
-    background-repeat: no-repeat;
-    background-position: left;
-    background-size: cover;
-    /* propiedad del margin (Tamaño Externo)*/
-    margin: 0px 0px 2px 0px;
-    /* Popiedad del Padding (Tamaño Interno)*/
-    padding: 90px;
-    /* Propiedad Border (Tamaño del brode)*/
-    border: 2px solid yellow;
-    font-size: 20px;
-    color: whitesmoke;
-    text-shadow: 2px 2px 2px black;
-        }
+background-image: url(../img/budismo1.jpg);
+background-repeat: no-repeat;
+background-position: left;
+background-size: cover;
+/* propiedad del margin (Tamaño Externo)*/
+margin: 0px 0px 2px 0px;
+/* Popiedad del Padding (Tamaño Interno)*/
+padding: 90px;
+/* Propiedad Border (Tamaño del brode)*/
+border: 2px solid yellow;
+font-size: 20px;
+color: whitesmoke;
+text-shadow: 2px 2px 2px black;
+}
 .caja_dos:hover{
-    border-radius: 20%;
-    }
+border-radius: 20%;
+}
 .caja_tres{
     background-image: url(../img/budismo2.jpg);
     background-repeat: no-repeat;
@@ -314,13 +314,4 @@ h2{
 .footer{
     grid-area: footer;
     }
-
-
-/*PAGINA FORMULARIO
-.formulario{
-    padding: 10px;
-    border: 10px;
-    border-color: yellow;
-    margin: 3px;
-    }
-*/
+    
